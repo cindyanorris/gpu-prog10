@@ -1,0 +1,37 @@
+Be sure your code has been compiled with the optimizations turned
+on before answering question 6.
+
+Give your answers to 1 - 5 as powers of 2.
+
+1) How many blocks are created by the sweep kernel launch
+when the code is executed with 26 for the -s parameter?
+
+
+2) What is the total number of warps (all blocks) for the sweep
+kernel when the code is executed with 26 for the -s parameter?
+
+
+3) How many blocks are created by the sum kernel launch
+when the code is executed with 26 for the -s parameter?
+
+
+4) What is the total number of warps (all blocks) for the sum
+kernel when the code is executed with 26 for the -s parameter and
+1 for the -n parameter?
+
+
+5) What is the total number of warps (all blocks) for the sum
+kernel when the code is executed with 26 for the -s parameter and
+16 for the -n parameter?
+
+
+6) Show the output of your program using 26 for the -s parameter
+and 4, 8, 16, and 32 for -n.
+
+
+7) What are the tradeoffs between having lots of warps where each thread in
+the warp does a small amount of work and fewer warps where each thread in
+the warp does a larger amount of work.
+
+
+
